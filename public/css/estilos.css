@@ -1,0 +1,572 @@
+/**************** BASICAS *************/
+.dark {
+	background-color: #18142F;
+	color: white;
+}
+.margin {
+	margin-top: 50px;
+}
+.bg-light {
+	background-color: #282249 !important;
+	color: #fff;
+}
+.btn-light {
+	background-color: #282249 !important;
+	color: #fff;
+	border-color: #282249
+}
+.btn-light:hover {
+	background-color: #282240 !important;
+	color: #fff;
+	border-color: #282249
+}
+
+.wrapper {
+	display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+@media (min-width: 1200px){
+	.container {
+    	max-width: 1380px;
+	}
+}
+/**************** BARRA NAVEGACION ************/
+#tioanime>header {
+	padding-top: 1rem; 
+	padding-bottom: 1rem;
+	background-color: #282249;
+	
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+/*********BUSCADOR************/
+.form-control {
+	background-color: #18142f;
+	border-color: #443d68;
+	outline: none;
+	border-radius: 20px;
+	color: white;
+}
+.form-control:focus {
+	background-color: #18142f;
+	border-color: #443d68;
+	outline: none;
+	border-radius: 20px;
+	color: white;
+}
+.search label {
+	width: 100%;
+}
+.input-form {
+	padding: 10px;
+	background-color: #18142f;
+	border-color: #443d68;
+	outline: none;
+	border-radius: 20px;
+	width: 100%;
+	border: none;
+	color: white;
+}
+.input-form:focus {
+	color: white;
+	background-color: #18142f;
+	border-color: #443d68;
+	outline: none;
+	border-radius: 20px;
+	width: 100%;
+}
+
+.select-input {
+	display: inline-block;
+	width: 200px;
+}
+/********ULTIMOS PELICULAS-OVAS-ONAS*************/
+.latest {
+	min-width: 380px;
+	overflow: auto;
+}
+.latest>section {
+	min-width: 400px;
+	overflow: auto;
+}
+
+.anime .media {
+    position: relative;
+}
+.anime.media .thumb {
+    width: 100px;
+    margin-right: 20px;
+}
+.thumb figure {
+    padding-top: 150%;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+.thumb img {
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+/*********** LISTA CAPITULOS Y ANIMES ************/
+.articles-t {
+	margin-top: 15px;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: auto;
+    grid-column-gap: 1%;
+    grid-row-gap: 12px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+.card-a{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-a .thumb {
+    max-width: 150px;
+}
+
+.card-a .thumb img {
+	width: 100%;
+	height: auto;
+    border-radius: 10px;
+}
+
+
+.card-c{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-c .thumb {
+    max-width: 150px;
+}
+
+.card-c .thumb img {
+	width: 100%;
+	height: auto;
+    border-radius: 10px;
+}
+.txtTitle {
+    color: white;
+    position: relative;
+    bottom: 0px;
+}
+@media screen and (max-width: 991px){
+	.articles-a {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: auto auto;
+        grid-row-gap: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .card-a.thumb {
+        max-width: 200px;
+    }
+    
+    .card-a.thumb img {
+        width: 100%;
+        border-radius: 10px;
+	}
+	
+	.card-c .thumb {
+        max-width: 200px;
+    }
+    
+    .card-c .thumb img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+/***********DIRECTORIO ANIME***************/
+@media (min-width: 992px) {
+	.contenedor-principal {
+	    -ms-flex: 0 0 calc(100% - 225px - 2.5rem);
+	    flex: 0 0 calc(100% - 225px - 2.5rem);
+	    max-width: calc(100% - 225px - 2.5rem);
+	}
+}
+@media (min-width: 992px){
+	.sidebar {
+	    -ms-flex: 0 0 330px;
+	    flex: 0 0 330px;
+	    max-width: 330px;
+	}
+}
+.filter-bx {
+	background-color: #1f1a3a;
+}
+@media (min-width: 992px) {
+	.filters-cont>aside {
+	    -ms-flex: 0 0 250px;
+	    flex: 0 0 250px;
+	    max-width: 250px;
+	}
+}
+/*************OPCIONES DE VIDEO***************/
+.list-option {
+	width: 100%;
+}
+.nav-item a {
+	background-color: #443d68;
+	margin: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+.canal {
+	width: 100%;
+	height: 558px;
+}
+.canal iframe {
+	width: 100%;
+	height: 100%;
+}
+form textarea {
+	width: 100%;
+	margin-left: 10px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	padding: 10px 5px 10px 20px;
+
+	max-width: 96%;
+	min-height: 100px;
+	max-height: 50px;
+	resize: vertical;
+	height: 100px;
+}
+.box-comentarios {
+	height: 500px;
+	overflow-y: scroll;
+}
+.box-comentarios::-webkit-scrollbar {
+  width: 7px;
+}
+.box-comentarios::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background: #eee; 
+}
+.box-comentarios::-webkit-scrollbar-thumb:hover {
+	border-radius: 7px;
+	background: #eee; 
+	transition: 1s;
+  }
+.box-comentarios::-webkit-scrollbar-track {
+  border-radius: 10px;
+  display: none;
+}
+.title p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0px;
+}
+.descripcion p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+}
+/***********PAGINACION******************/
+.page-link {
+	background-color: #282249;
+	border-color: #282249;
+	color: white;
+}
+.page-link:hover {
+	background-color: #18142F;
+	border-color: #18142F;
+	color: white;
+	-webkit-box-shadow: 10px 10px 49px -10px rgba(230,209,230,1);
+	-moz-box-shadow: 10px 10px 49px -10px rgba(230,209,230,1);
+box-shadow: 10px 10px 49px -10px rgba(230,209,230,1);
+}
+/**************LOGIN************************/
+.form-login {
+	border-radius: 3px;
+	margin-top: 100px;
+	padding: 20px;
+	background-color: #282249;
+	width: 300px;
+	-webkit-box-shadow: 10px 10px 137px -89px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 137px -89px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 137px -89px rgba(0,0,0,0.75);	
+}
+.form-login input {
+	width: 100%;
+}
+/************ANIME.PHP ***********************/
+
+
+/************ADMINISTRACION*****************/
+.panel-admin {
+	background-color: #282249;
+	padding: 20px;
+	border-radius: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.list-panel {
+	list-style: none;
+	padding: 0px;
+}
+.list-panel a {
+	font-size: 40px;
+}
+.list-panel a:hover {
+	font-size: 40px;
+	color: #5e4d73;
+}
+.list-panel-item {
+	display: inline-block;
+	padding: 20px;
+}
+
+.list-action-panel {
+	list-style: none;
+	padding: 0px;
+}
+.list-action-panel-item {
+	padding: 10px;
+}
+.list-action-panel-item:hover {
+	padding: 10px;
+	background-color: #1f1b3a;
+}
+.list-action-panel-item a {
+	text-decoration: none;
+	color: white;
+}
+.categorias-seleccionadas {
+	display: block;
+	background-color: #1f1b3a;
+	color: white;
+	padding: 10px 20px;
+}
+#categoria {
+	outline: none;
+	border: none;
+	background-color: #1f1b3a;
+	color: white;
+}
+
+#seleccion-categoria {
+	display: inline;
+}
+
+/************MULTISELECTOR****************/
+select[data-multi-select-plugin] {
+    display: none !important;
+}
+
+.multi-select-component {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    padding: 3px 8px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding-bottom: 0px;
+    color: #fff;
+    background-color: #1f1b3a;
+	border: none;
+	outline: none;
+    border-radius: 4px;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.autocomplete-list {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.multi-select-component:focus-within {
+	box-shadow: inset 0px 0px 0px 2px #1f1b3a;
+	border: none;
+	outline: none;
+}
+
+.multi-select-component .btn-group {
+    display: none !important;
+}
+
+.multiselect-native-select .multiselect-container {
+    width: 100%;
+}
+
+.selected-wrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid #282249;
+    background-color: #282249;
+    white-space: nowrap;
+    margin: 1px 5px 5px 0;
+    height: 22px;
+    vertical-align: top;
+    cursor: default;
+}
+
+.selected-wrapper .selected-label {
+    max-width: 514px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 4px;
+    vertical-align: top;
+}
+
+.selected-wrapper .selected-close {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.49em;
+    margin-left: 5px;
+    padding-bottom: 10px;
+    height: 100%;
+    vertical-align: top;
+    padding-right: 4px;
+    opacity: 0.2;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: 700;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-container .selected-input {
+    background: none;
+    border: 0;
+    height: 20px;
+    width: 60px;
+    padding: 0;
+    margin-bottom: 6px;
+    -webkit-box-shadow: none;
+	box-shadow: none;
+	color: white;
+}
+
+.search-container .selected-input:focus {
+    outline: none;
+}
+
+.dropdown-icon.active {
+    transform: rotateX(180deg)
+}
+
+.search-container .dropdown-icon {
+    display: inline-block;
+    padding: 10px 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    border: 0 !important;
+    /* needed */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* SVG background image */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23818181%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23818181%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-position: center;
+    background-size: 10px;
+    background-repeat: no-repeat;
+}
+
+.search-container ul {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    z-index: 3;
+    margin-top: 29px;
+    width: 100%;
+    right: 0px;
+    background: #282249;
+    border-bottom: none;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.search-container ul :focus {
+    outline: none;
+}
+
+.search-container ul li {
+    display: block;
+    text-align: left;
+    padding: 8px 29px 2px 12px;
+    border-bottom: 1px solid #282249;
+    font-size: 14px;
+    min-height: 31px;
+}
+
+.search-container ul li:first-child {
+    border-radius: 4px 0px 0 0;
+}
+
+.search-container ul li:last-child {
+    border-radius: 4px 0px 0 0;
+}
+
+
+.search-container ul li:hover.not-cursor {
+    cursor: default;
+}
+
+.search-container ul li:hover {
+    color: #fff;
+	background-color: #332c5cfd;
+    cursor: pointer;
+}
+
+/* Adding scrool to select options */
+.autocomplete-list {
+    max-height: 130px;
+    overflow-y: auto;
+}
+/*******TABLAS**************************/
+.table-dark {
+	background-color: transparent;
+}
+/********** PIE DE PAGINA **************/
+.footer {
+	background-color: #282249;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+		
+		
+		
+		
